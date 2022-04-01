@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "daisyui": "^2.8.0"
+  },
+  "name": "prova",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./index.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
